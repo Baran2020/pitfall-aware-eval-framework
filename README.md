@@ -33,9 +33,7 @@ The currently supported identifiers are:
 |------------|------|
 | `TL1`      | AWDNN |
 | `TL31`     | ReChecker |
-| `TL104`    | Peculiar |
-| `TL3`      | CBGRU |
-| `TL4`      | WIDENNET |
+
 
 Each configuration specifies the dataset location, dataset filename, input type, and bytecode dataset format.
 
