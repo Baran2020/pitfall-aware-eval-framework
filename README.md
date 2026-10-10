@@ -62,9 +62,9 @@ Tool identifiers and their corresponding configurations are defined in `mainfram
 
 To add or modify a tool configuration:
 
-1. **Update `mainframework`:** Define the tool identifier and its corresponding dataset configuration.
+1. **Update `Mainframework`:** Define the tool identifier and its corresponding dataset configuration.
 2. **Configure the dataset:** Specify the dataset path, filename, input type, and bytecode dataset format as required.
-3. **Update the entry-point script:** Ensure that the identifier is included in the `choices` list in `parse_args()`. This list must be updated whenever a new identifier is introduced, unless the argument parser is modified to load identifiers directly from `mainframework`.
+3. **Update the entry-point script:** Ensure that the identifier is included in the `choices` list in `parse_args()`. This list must be updated whenever a new identifier is introduced, unless the argument parser is modified to load identifiers directly from `Mainframework`.
 4. **Verify compatibility:** Ensure that the preprocessing and testing components support the configuration and that all required dataset paths, tool paths, and dependencies are available.
 5. **Run the configuration:** Execute the entry-point script using the corresponding identifier:
 
