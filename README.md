@@ -39,4 +39,29 @@ Each configuration specifies the dataset location, dataset filename, input type,
 
 Before running an experiment, update the dataset and tool paths to match the local environment. The current implementation uses Linux-style paths such as /mnt/f/LISTTOOL/..., which may require adjustment depending on the execution environment.
 
-Running the Framework
+## Running the Framework
+
+# Prerequisites
+
+Before execution, ensure that the required Python environment, database, metadata services, preprocessing components, test agent, datasets, and detection tools are configured and accessible.
+
+# Execution
+Run the entry-point script with the identifier of the tool you want to evaluate:
+
+python temp__code.py --tool TL31
+
+The supported tool identifiers are defined in mainframework. Users can add or modify identifiers and their corresponding tool configurations in mainframework, provided that the entry-point script and related components are updated consistently.
+
+Replace TL31 with the identifier corresponding to your desired tool configuration. For example, if you define a new identifier in mainframework, use that identifier with the --tool argument when executing the script.
+
+Each invocation processes one selected tool configuration
+
+# Adding or Modifying a Tool Configuration
+
+# Experimental Workflow
+
+# Repository Structure
+
+# Reproducibility
+
+# Citation
